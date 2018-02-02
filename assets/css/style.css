@@ -1,0 +1,83 @@
+
+.btn{
+	font-family: 'Proza Libre', sans-serif;
+	font-size: 16px;
+	color: rgb(5, 13, 126);
+    padding: 1vh 1vw;
+    opacity: .8;
+    font-weight: bolder;
+    background: url("../images/btnSports.svg");
+}
+
+.btn:hover{
+	color: red;
+}
+
+.btn:focus{
+	outline: 2px solid red !important;
+	background-color: yellow;
+	color: red;
+}
+
+.sport-button{
+	margin: .5vh 1vw;
+}
+
+.dotted-border{
+	border: 6px solid green;
+}
+
+.buttonRequest{
+	font-family: 'Proza Libre', sans-serif;
+	font-size: 18px;
+	font-weight: 800;
+	color: darkblue;
+}
+
+.gif-image{
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+}
+
+.individual-gif-container{
+	float: left;
+	margin: 2vh 3vw 2vh 3vw;
+}
+
+#submit{
+	margin-top: 1.5vh;
+}
+
+#sport-show{
+	margin-top: 1.5vh;
+	width: 100%;
+}
+
+#sport-show:focus{
+	outline: 2px solid red !important;
+}
+
+#gif-container{
+	font-size: 22px;
+}
+
+body{
+	background: url("../images/sports.jpg") no-repeat center center fixed;
+	background-size: cover;
+
+}
+
+
+h1{
+	font-family: 'Proza Libre', sans-serif;
+	font-size: 90px;
+	margin-top: 3vh;
+    margin-bottom: 1vh;
+    color: darkblue;
+}
+
+.row{
+	margin-bottom: 4vh;
+	margin-left: 3vw;
+	margin-right: 3vw;
+}
